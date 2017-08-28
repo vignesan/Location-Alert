@@ -37,7 +37,7 @@ L.control.watermark({ position: 'bottomleft' }).addTo(map);
     L.tileLayer.grayscale('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             noWrap: true,
-            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> '
+            attribution: 'Developer <a href="https://github.com/vignesan">Vignesan</a> | Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> '
         }).addTo(map);  
     
 
