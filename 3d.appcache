@@ -1,0 +1,12 @@
+CACHE MANIFEST
+
+CACHE:
+http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css
+http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js
+http://cdn.osmbuildings.org/OSMBuildings-Leaflet.js
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online
