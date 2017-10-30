@@ -67,7 +67,7 @@ L.control.watermark({ position: 'bottomleft' }).addTo(map);
 
             if (z<=1){
 
-                 document.getElementById('siren').play();
+                 //document.getElementById('siren').play();
 
             sweetAlert({
                 title: "STOP",
