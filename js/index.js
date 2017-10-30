@@ -32,7 +32,7 @@ L.control.watermark = function(opts) {
 
 L.control.watermark({ position: 'bottomleft' }).addTo(map);
 
-    map.setView([12.975453037045146, 77.57283210754395], 12, false);
+    map.setView([9.59262549583373, 79.4036865234375], 7, false);
 
     L.tileLayer.grayscale('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
@@ -67,7 +67,16 @@ L.control.watermark({ position: 'bottomleft' }).addTo(map);
 
             if (z<=1){
 
-                alert("works");
+                 document.getElementById('siren').play();
+
+            sweetAlert({
+                title: "STOP",
+                text: "IMMEDIATELY",
+                imageUrl: "./css/images/stop.png",
+                // timer: 21000,
+                showConfirmButton: true,
+            });
+
 }
     //map.setView(e.latlng, map.getZoom(), { animation: true });
 
